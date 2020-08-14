@@ -8,3 +8,4 @@ const Second="Percentage of teachers = "+Math.round(percentageofteachers)+"%";
 
 console.log(First);
 console.log(Second);
+
