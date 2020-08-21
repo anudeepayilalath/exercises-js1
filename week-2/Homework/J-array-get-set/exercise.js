@@ -5,7 +5,8 @@
 */
 
 function first(arr) {
-  return; // complete this statement
+
+  return arr[0];
 }
 
 function last(arr) {

@@ -9,6 +9,16 @@
 var name = "Daniel";
 var danielsRole = "mentor";
 
+
+function Role(danielsRole){
+  if(danielsRole="mentor"){
+    return "Hi, I'm Daniel, I'm a mentor.";
+  }
+return "Hi, I'm Daniel, I'm a student."
+
+}
+console.log(Role(danielsRole));
+
 /* 
 EXPECTED RESULT
 ---------------
