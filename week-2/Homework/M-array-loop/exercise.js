@@ -13,3 +13,13 @@ const daysOfWeek = [
   "Saturday",
   "Sunday",
 ];
+
+function tFun(arr) {
+  arr.forEach((val) => {
+    if (val.startsWith('S')) {
+      console.log(val);
+    }
+  });
+}
+
+console.log(tFun(daysOfWeek));

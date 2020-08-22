@@ -10,7 +10,7 @@ function first(arr) {
 }
 
 function last(arr) {
-  return; // complete this statement
+  return arr[arr.length-1]; // complete this statement
 }
 
 /* 

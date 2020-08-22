@@ -9,6 +9,7 @@
 var numbers = [1, 2, 3]; 
 
 numbers[3]=4;
+//numbers.push(4);
 numbers[0]=1;
 
 /* 
