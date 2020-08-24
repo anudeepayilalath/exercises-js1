@@ -4,6 +4,34 @@
 */
 
 
+// const daysOfWeek = [
+//   "Monday",
+//   "Tuesday",
+//   "Wednesday",
+//   "Thursday",
+//   "Friday",
+//   "Saturday",
+//   "Sunday",
+// ];
+
+// function weeks(daysOfWeek){
+//   daysOfWeek.forEach(value) => {
+//     if (value.startsWith('T'))
+//     console.log(value);}
+// }
+
+
+
+
+// _____________________________________________________________________________________________________________
+// function tFun(arr) {
+//   arr.forEach(val) 
+// }
+
+// console.log(tFun(daysOfWeek));
+
+
+////////////////////////////////////////
 const daysOfWeek = [
   "Monday",
   "Tuesday",
@@ -14,12 +42,15 @@ const daysOfWeek = [
   "Sunday",
 ];
 
-function tFun(arr) {
-  arr.forEach((val) => {
-    if (val.startsWith('S')) {
-      console.log(val);
-    }
-  });
-}
+// for (let i=0; i < daysOfWeek.length; i++) {
+//   if (daysOfWeek[i].charAt(0) === "T") {
+//     console.log(daysOfWeek[i]);
+//   }
+// }
 
-console.log(tFun(daysOfWeek));
+for (let i=0; i < daysOfWeek.length; i++) {
+  // daysOfWeek[i] => "Monday"[0] => "M" : daysOfWeek[i][0] => "M"
+  if (daysOfWeek[i][0] === "T") {
+    console.log(daysOfWeek[i]);
+  }
+}

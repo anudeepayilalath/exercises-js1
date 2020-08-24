@@ -5,12 +5,14 @@
 
 */
 
-function isEmpty(arr) 
-{if(arr.length===0){
-  return true;}
-  
-  else{return false;}
-}
+function isEmpty(arr){ 
+// {if(arr.length===0){
+//   return true;}
+return (arr.length===3);  }
+
+//   else{return false;}
+// }
+
 
 /* 
   DO NOT EDIT BELOW THIS LINE

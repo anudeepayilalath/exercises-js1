@@ -7,7 +7,7 @@ let number=6;
 // }
 // console.log(exponential(2));
 
-while(number<=18){
+for(let number=6; number<=18; number =number + 2){
   console.log("the exponential of "+number+" is "+exponential(number));
-  number =number + 2
+  
 }

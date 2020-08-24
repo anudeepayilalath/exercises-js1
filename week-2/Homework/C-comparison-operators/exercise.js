@@ -14,7 +14,7 @@ var enoughSpaceInRoom=(studentCount+mentorCount)<=enoughSpaceInRoom; // finish t
 
 var personA = "Daniel";
 var personB = "Irina";
-var sameName=(personA===personB); // finish this statement
+var sameName=(personA===personB) // finish this statement
 
 /* 
   DO NOT EDIT BELOW THIS LINE

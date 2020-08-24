@@ -11,7 +11,7 @@ let n = 10;
 function sumTillNum(num){
 	let zer=0;
 	let summ=0;
-	while(zer<num){
+	while(zer<num){  
 		zer=zer+1
 		summ=summ+zer}
 		return summ;
