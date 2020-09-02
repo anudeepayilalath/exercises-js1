@@ -18,7 +18,7 @@ function abracaFunction(newfunction) {
   return abracaOutput;
 }
 function newfunction(arr){
-    let answer=arr.map((change)=> change.toUpperCase()).sort();
+    let answer=arr.map((change)=> change.toUpperCase());
     return answer;
 }
 
